@@ -1,0 +1,54 @@
+.education {
+
+    .box-container {
+        display: flex;
+        flex-wrap: wrap;
+
+        .box {
+            flex: 1 1 40rem;
+            margin-left: 2rem;
+            padding-top: 0;
+            padding-bottom: 0;
+            padding-left: 3.5rem;
+            padding-bottom: 3rem;
+            border-left: .1rem solid $light-color;
+            position: relative;
+
+            i {
+                height: 4.5rem;
+                width: 4.5rem;
+                line-height: 4.5rem;
+                font-size: 1.7rem;
+                border-radius: 50%;
+                background: $crimson;
+                color: $white;
+                text-align: center;
+                position: absolute;
+                top: -1rem;
+                left: -2.5rem;
+            }
+
+            span {
+                font-size: 1.7rem;
+                color: $white;
+                border-radius: 5rem;
+                padding: .5rem 1.5rem;
+                background: $light-bg;
+            }
+
+            h3 {
+                font-size: 2rem;
+                padding: 1rem 0;
+                color: $white;
+                padding-top: 3rem;
+                font-weight: normal;
+            }
+
+            p {
+                font-size: 1.5rem;
+                color: $light-color;
+                line-height: 2;
+            }
+        }
+    }
+}
